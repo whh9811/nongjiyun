@@ -1,0 +1,131 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/Index",
+			"style": {
+				"navigationBarBackgroundColor":"#32CD32"
+			}
+		},
+		{
+			"path": "pages/knowledge/Knowledge",
+			"style": {
+				"navigationBarTitleText": "知识库",
+				"navigationBarBackgroundColor":"#32CD32",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/quiz/Quiz",
+			"style": {
+				"navigationBarTitleText": "快速提问",
+				"navigationBarBackgroundColor":"#32CD32",
+				"navigationBarTextStyle":"white"				
+			}
+		},
+		{
+			"path": "pages/exchange/Exchange",
+			"style": {
+				"navigationBarTitleText": "交流",
+				"navigationBarBackgroundColor":"#32CD32",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/my/My",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor":"#32CD32",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path":"pages/nine/kjzx",
+			"style":{
+				"navigationBarTitleText":"科技专项"
+			}
+		},
+		{
+			"path":"pages/nine/zyhz",
+			"style":{
+				"navigationBarTitleText":"专业合作"
+			}
+		},{
+			"path":"pages/nine/ysns",
+			"style":{
+				"navigationBarTitleText":"应时农事"
+			}
+		},
+		{
+			"path":"pages/nine/nykj",
+			"style":{
+				"navigationBarTitleText":"农业科技"
+			}
+		},
+		{
+			"path":"pages/nine/nyzj",
+			"style":{
+				"navigationBarTitleText":"农业专家"
+			}
+		},
+		{
+			"path":"pages/nine/nyzc",
+			"style":{
+				"navigationBarTitleText":"农业政策"
+			}
+		},
+		{
+			"path":"pages/nine/schq",
+			"style":{
+				"navigationBarTitleText":"市场行情"
+			}
+		},
+		{
+			"path":"pages/nine/xcly",
+			"style":{
+				"navigationBarTitleText":"乡村旅游"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color": "#bfbfbf",
+		"selectedColor": "#32CD32",
+		"list": [{
+				"pagePath": "pages/index/Index",
+				"iconPath":"static/btn_index_normal.png",
+				"selectedIconPath":"static/btn_index_selected.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/knowledge/Knowledge",
+				"iconPath":"static/btn_thinktank_normal.png",
+				"selectedIconPath":"static/btn_thinktank_selected.png",
+				"text": "知识库"
+			},
+			{
+				"pagePath": "pages/quiz/Quiz",
+				"iconPath":"static/btn_questions_normal.png",
+				"selectedIconPath":"static/btn_questions_selected.png",
+				"text": "快速提问"
+			},
+			{
+				"pagePath": "pages/exchange/Exchange",
+				"iconPath":"static/btn_exchange_normal.png",
+				"selectedIconPath":"static/btn_exchange_selected.png",
+				"text": "交流"
+			},
+			{
+				"pagePath": "pages/my/My",
+				"iconPath":"static/btn_me_normal.png",
+				"selectedIconPath":"static/btn_me_selected.png",
+				"text": "我的"
+			}
+		]
+	}
+}

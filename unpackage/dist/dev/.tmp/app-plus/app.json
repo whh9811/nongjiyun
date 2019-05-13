@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/index/Index",
+    "pages/knowledge/Knowledge",
+    "pages/quiz/Quiz",
+    "pages/exchange/Exchange",
+    "pages/my/My",
+    "pages/nine/kjzx",
+    "pages/nine/zyhz",
+    "pages/nine/ysns",
+    "pages/nine/nykj",
+    "pages/nine/nyzj",
+    "pages/nine/nyzc",
+    "pages/nine/schq",
+    "pages/nine/xcly"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#32CD32",
+    "list": [
+      {
+        "pagePath": "pages/index/Index",
+        "iconPath": "static/btn_index_normal.png",
+        "selectedIconPath": "static/btn_index_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/knowledge/Knowledge",
+        "iconPath": "static/btn_thinktank_normal.png",
+        "selectedIconPath": "static/btn_thinktank_selected.png",
+        "text": "知识库"
+      },
+      {
+        "pagePath": "pages/quiz/Quiz",
+        "iconPath": "static/btn_questions_normal.png",
+        "selectedIconPath": "static/btn_questions_selected.png",
+        "text": "快速提问"
+      },
+      {
+        "pagePath": "pages/exchange/Exchange",
+        "iconPath": "static/btn_exchange_normal.png",
+        "selectedIconPath": "static/btn_exchange_selected.png",
+        "text": "交流"
+      },
+      {
+        "pagePath": "pages/my/My",
+        "iconPath": "static/btn_me_normal.png",
+        "selectedIconPath": "static/btn_me_selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "nongjiyun",
+  "compilerVersion": "1.9.4"
+}
